@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript">
+		function verifyPass(){
+			var pass = document.getElementById("password").value;
+			var rePass = document.getElementById("repassword").value;
+
+			if( pass != rePass){
+				window.alert("Please make sure that you entered the same password!");
+				return false;
+			}
+			
+		}
+
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand" style="font-family: 'Pacifico', cursive;">Rose Valley Hospital</a>
+
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Departments<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="Dental.html">Dental</a></li>
+		            <li><a href="Ophthalmology.html">Ophthalmology</a></li>
+		          </ul>
+		        </li>
+				<li><a href="Doctors.html">Doctors</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+		        <li><a href="signup.html">Signup</a></li>
+		        <li><a href="login.html">Login</a></li>
+		    </ul>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="sign-form">
+			<h5 style="font-size: 25pt;">Signup</h5>
+			<form class="form-group" onsubmit="return verifyPass()">
+			  <div class="form-group">
+			    <input type="text" class="form-control" id="fname" placeholder="First name" required>
+			  </div>
+			  <div class="form-group">
+			    <input type="text" class="form-control" id="lname" placeholder="Last name" required>
+			  </div>
+			  <div class="form-group">
+			    <input type="email" class="form-control" id="email" placeholder="Email" required>
+			  </div>
+			  <div class="form-group">
+			    <input type="password" class="form-control" id="password" value="" minlength="8" placeholder="Password" required>
+			  </div>
+			  <div class="form-group">
+			    <input type="password" class="form-control" id="repassword" value="" placeholder="Re-Password" required>
+			  </div>			
+			  <div class="sign-btn">
+			  	<button type="submit" id="myButton" class="btn btn-default" ">Sign up</button>
+			  </div>  
+			 
+
+<script type="text/javascript">
+     document.getElementById("myButton").onclick = function () {
+        location.href = "file:///C:/Users/USER%20HP/Desktop/prooooject/proooooject/Doctors.html";
+    };
+</script>
+			  
+			</form>
+		</div>
+		
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

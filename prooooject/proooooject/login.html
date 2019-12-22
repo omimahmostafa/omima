@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand" style="font-family: 'Pacifico', cursive;">Rose Valley Hospital</a>
+
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="index.html">Home</a></li>
+				<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Departments<span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="Dental.html">Dental</a></li>
+		            <li><a href="Ophthalmology.html">Ophthalmology</a></li>
+		          </ul>
+		        </li>
+				<li><a href="Doctors.html">Doctors</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+		        <li><a href="signup.html">Signup</a></li>
+		        <li><a href="login.html">Login</a></li>
+		    </ul>
+		</div>
+	</nav>
+
+	<br>
+			
+	<div class="container">
+		<div class="sign-form">
+			<h5 style="font-size: 25pt;"  >Login</h5>
+			  <form name="login">
+			  <div class="login"> 
+			    <input type="text"  id="username" placeholder="Email" name="userid" ><br>
+			 
+			    <input type="password" id="password"  placeholder="Password" name="pswrd" ><br>
+			 			
+			 
+			  	<input type="button"  onclick="check(this.form)" value="Login"/>
+			
+</div> 
+</form> 
+    <script language ="javascript">
+   function check(form)
+   {
+  if (form.userid.value == "ThomasSteven@gmail.com" && form.pswrd.value =="thomas" ) 
+  { 
+  window.open('file:///C:/Users/USER%20HP/Desktop/prooooject/proooooject/doctorportal.html') 
+  }
+  else if (form.userid.value == "EmmaGreg@gmail.com" && form.pswrd.value =="emma" ) 
+  { 
+  window.open('file:///C:/Users/USER%20HP/Desktop/prooooject/proooooject/doctorportal2.html') 
+  }
+  else if (form.userid.value == "KarenWilliam@gmail.com" && form.pswrd.value =="karen" ) 
+  { 
+  window.open('file:///C:/Users/USER%20HP/Desktop/prooooject/proooooject/doctorportal3.html') 
+  }
+  else if (form.userid.value == "DavidMichael@gmail.com" && form.pswrd.value =="david" ) 
+  { 
+  window.open('file:///C:/Users/USER%20HP/Desktop/prooooject/proooooject/doctorportal4.html') 
+  }
+   else if (form.userid.value == "JoiseMaran@gmail.com" && form.pswrd.value =="joise" ) 
+  { 
+  window.open('file:///C:/Users/USER%20HP/Desktop/prooooject/proooooject/nurseportal.html') 
+  }
+   else if (form.userid.value == "DanielKayre@gmail.com" && form.pswrd.value =="daniel" ) 
+  { 
+  window.open('file:///C:/Users/USER%20HP/Desktop/prooooject/proooooject/nurseportal3.html') 
+  }
+   else if (form.userid.value == "NatashaDalal@gmail.com" && form.pswrd.value =="natasha" ) 
+  { 
+  window.open('file:///C:/Users/USER%20HP/Desktop/prooooject/proooooject/nurseportal4.html') 
+  }
+   else if (form.userid.value == "MeraSorde@gmail.com" && form.pswrd.value =="mera" ) 
+  { 
+  window.open('file:///C:/Users/USER%20HP/Desktop/prooooject/proooooject/nurseportal2.html') 
+  }
+  else {
+  alert("Incorrect Email or Password" ) 
+  } 
+}
+    </script>
+			  </div>  
+			  
+			</form>
+		</div>
+		
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

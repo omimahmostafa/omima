@@ -1,0 +1,58 @@
+body{
+	background-image: url("homepage.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Bree Serif', serif;
+}
+
+html{
+	height: 100%
+}
+
+.content{
+	text-align: center;
+	margin-top: 5%;
+	color:#89cff0 ;
+}
+
+h1 {
+	text-shadow: 2px 2px white;
+	font-size: 50pt;
+
+}
+
+h5{
+	font-size: 18pt;
+	color: white;
+}
+
+hr{
+	width: 30%;
+	border-bottom: 1px black solid;
+	border-radius: 2px;
+}
+
+.sign-form{
+	border: 1px navy solid;
+	border-radius: 10px;
+	padding: 20px;
+	padding-top: 1px;
+	width: 30%;
+	margin-top: 5%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.sign-btn{
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+label{
+	color: white;
+}
+#halawa active{
+{
+	color : #89cff0;
+}

@@ -1,0 +1,39 @@
+body{
+	background-image: url("homepage.jpg");
+	background-size: cover;
+	background-position: center;
+	font-family: 'Bree Serif', serif;
+}
+
+img{
+	width: 100%;
+	margin: 1.66%;
+	border-radius: 10px; 
+	align-content: center;
+	border: 2px solid white;
+	
+}
+
+.card-text{
+	color: black;
+}
+
+.form-control{
+	width: 40%;
+	margin-bottom: 20px;
+	margin-left: 30%;
+	display: inline;
+}
+
+.btn{
+	border: 1px solid #96d367;
+	display: inline;
+	background-color: #96d367;
+	text-decoration: none;
+	color: white;
+}
+
+
+.row{
+	margin-bottom: 20px;
+}
