@@ -1,0 +1,2 @@
+# omima
+internet tech project
